@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business card</title>
+    <style>
+        body {
+            background: url("https://media.istockphoto.com/id/1493983102/pl/zdj%C4%99cie/manhattan-skyline-widok-z-lotu-ptaka-wieczorny-zach%C3%B3d-s%C5%82o%C5%84ca.jpg?s=612x612&w=0&k=20&c=UF82yuhwsw1crTmlTyCsndhaOklOkiQ9mmMwuPxxikw=") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .container {
+            margin: 60px auto;
+            padding: 30px;
+            width: 400px;
+            height: 160px;
+            background-color: black;
+            color: silver;
+        }
+
+        .business-card img {
+            float: left;
+        }
+
+        .username, .email, .download-cv {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        .username span {
+            border-bottom: 2px solid red;
+            padding-bottom: 4px;
+        }
+
+        .email {
+            font-size: 15px;
+        }
+
+        .download-cv a {
+            color: red;
+            font-size: 13px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="business-card">
+            <img src="https://randomuser.me/api/portraits/women/57.jpg" alt="">
+            <p class="username">
+                <span>Aniela Kowal</span>
+                <p class="email">
+                    <span>anielka@example.com</span>
+                </p>
+                <p class="download-cv">
+                    <span>
+                        <a href="#">Download CV</a>
+                    </span>
+                </p>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
